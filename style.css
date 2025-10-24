@@ -63,3 +63,27 @@ body {
   background-color: #153530;
   color: #fff;
 }
+
+/* Ajustes para telas menores (ex: até 600px) */
+@media (max-width: 600px) {
+    
+    .container-header {
+        padding: 50px 20px 100px; 
+    }
+
+    .card {
+        max-width: 90%; 
+        padding: 30px 20px;
+    }
+
+    .card-especialidades {
+        margin-top: -100px;
+    }
+ 
+    .container-header h1 {
+        font-size: 1.8em;
+    }
+    .container-header h2 {
+        font-size: 1.2em;
+    }
+}
