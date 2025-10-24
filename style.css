@@ -57,17 +57,12 @@
 @media (max-width: 600px) {
     
     .container-header {
-        padding: 50px 20px 100px; 
         margin-bottom: 20px;
     }
 
     .card {
         max-width: 90%; 
         padding: 30px 20px;
-    }
-
-    .card-especialidades {
-        margin-top: -100px;
     }
  
     .container-header h1 {
