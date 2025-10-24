@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+body {
+  background-color: #fef4eb;
+}
+
 .top-color {
   background-color: #d39f1f;
   padding: 20px;
@@ -18,7 +22,7 @@
   background-color: #153530;
   color: #fff;
   gap: 8px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .card {
@@ -34,6 +38,12 @@
   padding: 40px;
 }
 
+.card p {
+  font-weight: bold;
+  color: #153530;
+  margin-bottom: 16px;
+}
+
 .container-medias {
   display: flex;
   justify-content: center;
@@ -47,10 +57,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 20px 20px;
+  padding: 20px;
   background-color: #153530;
   color: #fff;
-  margin-top: auto;
 }
 
 /* Ajustes para telas menores (ex: até 600px) */
