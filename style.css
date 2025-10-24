@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fef4e8;
+}
+
+.top-color {
+  background-color: #d39f1f;
+  padding: 20px;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #153530;
+  color: #fff;
+  gap: 8px;
+  padding: 50px 50px 80px 50px;
+}
+
+.card {
+  max-width: 400px;
+  margin: 24px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffafa;
+  border: 3px solid #ebaa84;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+/* style.css */
+
+.card-especialidades {
+    margin-top: -60px;
+    position: relative; 
+    z-index: 10;
+}
+
+.container-medias {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #153530;
+  color: #fff;
+}
