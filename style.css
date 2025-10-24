@@ -42,9 +42,9 @@ body {
 /* style.css */
 
 .card-especialidades {
-    margin-top: -60px;
     position: relative; 
     z-index: 10;
+    transform: translateY(-60px);
 }
 
 .container-medias {
