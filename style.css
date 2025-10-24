@@ -42,9 +42,9 @@ body {
 /* style.css */
 
 .card-especialidades {
+    top: -60px;
     position: relative; 
     z-index: 10;
-    transform: translateY(-60px);
 }
 
 .container-medias {
@@ -63,6 +63,7 @@ body {
   padding: 30px 20px 20px;
   background-color: #153530;
   color: #fff;
+  margin-top: auto;
 }
 
 /* Ajustes para telas menores (ex: até 600px) */
