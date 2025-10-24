@@ -22,7 +22,8 @@ body {
   background-color: #153530;
   color: #fff;
   gap: 8px;
-  padding: 30px;
+  padding: 60px 30px;
+  position: relative; /*alterar se necessário*/
 }
 
 .card {
@@ -42,6 +43,12 @@ body {
   font-weight: bold;
   color: #153530;
   margin-bottom: 16px;
+}
+
+.card-especialidades { /*excluir se necessário*/
+  margin-top: -40px;
+  position: relative;
+  z-index: 10;
 }
 
 .container-medias {
@@ -64,7 +71,6 @@ body {
 
 /* Ajustes para telas menores (ex: até 600px) */
 @media (max-width: 600px) {
-    
     .container-header {
         padding: 50px 20px 100px; 
         margin-bottom: 20px;
@@ -73,6 +79,10 @@ body {
     .card {
         max-width: 90%; 
         padding: 30px 20px;
+    }
+
+    .card-especialidades {
+      margin-top: -60px;
     }
  
     .container-header h1 {
